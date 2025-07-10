@@ -22,5 +22,32 @@ Scenario 2:
 now you had bunch of different errors and warnings but you just want to focus on certain errors , using python:
 '''
 
-    
+mistakes = '400 Bad Request , 401 Unauthorized, 404 Not Found, 408 Request Timeout, 502 Bad Gateway, 504 Gateway Timeout'
+major_issue = '404 Not Found'   #this is a substring that we created to find out if this specific error(character) is present or not in our variable named mistakes.
+if major_issue in mistakes:
+    print("Major issue:", major_issue)
 
+print("\n")
+
+'''
+Scenario 3:
+just trying out some inbuilt functions ..you never know, you might just need them
+'''
+text = "Python is awesome"
+new_text = text.replace("awesome", "great")
+print("Modified text:", new_text)
+
+text = "Python is awesome"
+uppercase = text.upper()
+lowercase = text.lower()
+print("Uppercase:", uppercase)
+print("Lowercase:", lowercase)
+
+text = "Python is awesome"
+length = len(text)
+print("Length of the string:", length)
+
+str1 = "Hello"
+str2 = "World"
+result = str1 + " " + str2
+print(result)
