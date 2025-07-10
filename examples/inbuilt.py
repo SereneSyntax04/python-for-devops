@@ -51,3 +51,90 @@ str1 = "Hello"
 str2 = "World"
 result = str1 + " " + str2
 print(result)
+
+
+print("\n")
+print("\n")
+
+
+# Integer variables
+num1 = 10
+num2 = 5
+
+# Integer Division
+result1 = num1 // num2
+print("Integer Division:", result1)
+
+# Modulus (Remainder)
+result2 = num1 % num2
+print("Modulus (Remainder):", result2)
+
+# Absolute Value
+result3 = abs(-7)
+print("Absolute Value:", result3)
+
+
+print("\n")
+print("\n")
+
+
+# Float variables
+num1 = 5.0
+num2 = 2.5
+
+# Basic Arithmetic
+result1 = num1 + num2
+print("Addition:", result1)
+
+result2 = num1 - num2
+print("Subtraction:", result2)
+
+result3 = num1 * num2
+print("Multiplication:", result3)
+
+result4 = num1 / num2
+print("Division:", result4)
+
+# Rounding
+result5 = round(3.14159265359, 4)  # Rounds to 4 decimal places
+print("Rounded:", result5)
+
+
+print("\n")
+print("\n")
+
+
+'''
+Scenario 2:    
+now you had bunch of different errors and warnings but you just want to focus on certain errors , using python:
+'''
+#regex
+import re
+
+mistakes = '400 Bad Request , 401 Unauthorized, 404 Not Found, 408 Request Timeout, 502 Bad Gateway, 504 Gateway Timeout'
+pattern = r"404 Not Found"
+patterns = r"400 Bad Request"
+
+search = re.search(pattern, mistakes)
+if search:
+    print("Error found:", search.group())
+else:
+    print("Pattern not found")
+
+
+match = re.match(patterns, mistakes)
+if match:
+    print("Match found:", match.group())
+else:
+    print("No match")
+
+
+replacement = "403 Forbidden"
+new_text = re.sub(patterns, replacement, mistakes)
+print("Modified text:", new_text)
+
+
+pattern = r","
+split_result = re.split(pattern, mistakes)
+print("Split result:", split_result)
+print(split_result[2])
