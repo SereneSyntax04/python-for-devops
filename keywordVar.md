@@ -62,10 +62,10 @@ another_function()
 - Local variables disappear after the function ends. Global ones stick around till the program ends.
 
 ## ✨ Variable Naming Best Practices
-✅ Make names clear and meaningful
-✅ Use snake_case (like_this)
-❌ Don’t use keywords as variable names
-❌ Don’t use one-letter names unless in loops
+✅ Make names clear and meaningful <br>
+✅ Use snake_case (like_this) <br>
+❌ Don’t use keywords as variable names <br>
+❌ Don’t use one-letter names unless in loops <br>
 
 ```python
 # Good example
