@@ -1,6 +1,5 @@
 '''
-                    Day 2 
-So this exercise is regrading inbuilt function that we will perform on different data types.
+This exercise is regrading inbuilt function that we will perform on different data types.
 
 Scenario 1:     
 In your DevOps work , you have 1000 of arn (arn of IAM user) and you gotta submit only the username from those piles of arn
