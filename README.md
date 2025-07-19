@@ -6,6 +6,8 @@
 
 [3.  📚 Keywords & Variables](https://github.com/SereneSyntax04/python-for-devops/blob/main/keywordVar.md)
 
+[4.  📝 Functions, Modules & Packages](https://github.com/SereneSyntax04/python-for-devops/blob/main/function.md)
+
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
