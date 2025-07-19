@@ -131,3 +131,9 @@ Used in advanced stuff like file handling, networking, etc.
  result = None <br>
  # Useful as a placeholder when you’re waiting for a value later (like an empty form 📝).
 ```
+
+
+
+<br><br>
+
+[**Click here to refer more examples**](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/inbuilt.py)
