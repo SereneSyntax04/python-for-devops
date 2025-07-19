@@ -66,4 +66,6 @@ module1.function_from_module1()
 - Makes your project easy to navigate
 
 
+---
 
+[**Click here to visit more examples**](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/function.py)
