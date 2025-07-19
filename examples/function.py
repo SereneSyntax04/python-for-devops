@@ -53,4 +53,5 @@ create_basic_resources('my-first-devops-demo-bucket-123')
 # ➡️ "One function = One task done automatically"
 
 # When you call create_basic_resources(), it: 1.Creates one S3 bucket, 2.Launches one EC2 instance
+
 '''
