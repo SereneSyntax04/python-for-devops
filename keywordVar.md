@@ -82,30 +82,7 @@ num_of_students = 10  # ✅ Much better
 
 ---
 
-
-## 🔧 Real-life DevOps Example — Configuration Management
-```python
-# Web server config variables
-server_name = "my_server"
-port = 80
-is_https_enabled = True
-max_connections = 1000
-
-# Print config
-print(f"Server Name: {server_name}")
-print(f"Port: {port}")
-print(f"HTTPS Enabled: {is_https_enabled}")
-print(f"Max Connections: {max_connections}")
-
-# Update config
-port = 443
-is_https_enabled = False
-
-# Print updated config
-print(f"Updated Port: {port}")
-print(f"Updated HTTPS Enabled: {is_https_enabled}")
-```
 In DevOps or coding in general, understanding variables and keywords is like learning how to speak Python's language fluently.
 
 
-
+[**Click here to visit more examples**](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/var.py)
