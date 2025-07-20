@@ -68,4 +68,29 @@ module1.function_from_module1()
 
 ---
 
+## 🛠️ Python Virtual Environment — Quick Notes
+✅ What is it?
+- An isolated Python workspace with its own packages & dependencies.
+- Keeps your project dependencies separate from system Python.
+- Avoids “dependency hell” (version clashes).
+
+✅ Why DevOps Engineers use it?
+- To create clean environments for automation scripts.
+- To avoid breaking system tools or global Python packages.
+- For CI/CD pipelines needing specific versions of libraries.
+
+```bash
+# Create & Activate Virtual Env (Linux/Mac)
+python -m venv venv && source venv/bin/activate  
+
+# Create & Activate Virtual Env (Windows)
+python -m venv venv && venv\Scripts\activate  
+
+# Install packages inside venv
+pip install <package_name>  
+
+# Deactivate venv
+deactivate  
+```
+
 [**Click here to visit more examples**](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/function.py)
