@@ -55,3 +55,25 @@ create_basic_resources('my-first-devops-demo-bucket-123')
 # When you call create_basic_resources(), it: 1.Creates one S3 bucket, 2.Launches one EC2 instance
 
 '''
+
+
+'''
+# Python Virtual Environment
+# How to create & activate?:
+# Create
+python -m venv myenv  
+
+# Activate (Windows)
+myenv\Scripts\activate  
+
+# Activate (macOS/Linux)
+source myenv/bin/activate  
+
+# How to install packages inside it?
+pip install boto3  
+
+#  How to deactivate?
+deactivate  
+
+# Always activate your virtual environment before running automation scripts or DevOps tools in Python!
+'''
