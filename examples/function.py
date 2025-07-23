@@ -78,10 +78,3 @@ deactivate
 # Always activate your virtual environment before running automation scripts or DevOps tools in Python!
 '''
 
-
-import os
-print(os.getenv("pass"))
-'''
-export pass="shru12"
-python function.py 
-'''
