@@ -8,6 +8,8 @@
 
 [4.  📝 Functions, Modules & Packages](https://github.com/SereneSyntax04/python-for-devops/blob/main/function.md)
 
+[5.  🖥️ Python Command-Line Arguments and Environment Variable](https://github.com/SereneSyntax04/python-for-devops/blob/main/args.md)
+
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
