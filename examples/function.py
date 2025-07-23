@@ -64,7 +64,7 @@ create_basic_resources('my-first-devops-demo-bucket-123')
 python -m venv myenv  
 
 # Activate (Windows)
-myenv\Scripts\activate  
+myenv\Scripts\ activate  (No Space...it was giving some error so add space)
 
 # Activate (macOS/Linux)
 source myenv/bin/activate  
@@ -76,4 +76,12 @@ pip install boto3
 deactivate  
 
 # Always activate your virtual environment before running automation scripts or DevOps tools in Python!
+'''
+
+
+import os
+print(os.getenv("pass"))
+'''
+export pass="shru12"
+python function.py 
 '''
