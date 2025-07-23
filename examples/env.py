@@ -1,5 +1,6 @@
                                                 # this is command line argument
-
+# Command-line Arguments are usually used to pass input values like filenames, numbers, or operation types needed for that specific run.
+# Command-line Arguments can be visible in process lists (ps command) or shell history, so not recommended for sensitive information.
 import sys  # Importing the sys module to access command-line arguments
 
 
@@ -116,6 +117,10 @@ Supported operations:
 
 
                                                 # this is environment variable
+
+# Environment Variables are often used to store sensitive data like API keys, passwords, or config settings, because they don’t need to be hardcoded in the script.
+# Environment Variables are hidden from the command-line history and output, making them safer for storing secrets.
+
 import os
 print(os.getenv("pass"))
 '''
