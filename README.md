@@ -6,10 +6,11 @@
 
 [3.  📚 Keywords & Variables](https://github.com/SereneSyntax04/python-for-devops/blob/main/keywordVar.md)
 
-[4.  📝 Functions, Modules & Packages](https://github.com/SereneSyntax04/python-for-devops/blob/main/function.md)
+[4.  📝 Functions, Modules & Packages: Writing Clean and Reusable Code](https://github.com/SereneSyntax04/python-for-devops/blob/main/function.md)
 
-[5.  🖥️ Python Command-Line Arguments and Environment Variable](https://github.com/SereneSyntax04/python-for-devops/blob/main/args.md)
+[5.  🖥️ CLI Arguments & Environment Variables: Making Your Code Configurable](https://github.com/SereneSyntax04/python-for-devops/blob/main/args.md)
 
+[6.  🧠 Python Operators: The Characters Running Your Code’s Drama](https://github.com/SereneSyntax04/python-for-devops/tree/main/operator)
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
