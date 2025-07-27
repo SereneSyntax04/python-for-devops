@@ -1,4 +1,4 @@
-# Arithmetic Operations
+# Arithmetic Operators 
 
 Arithmetic operators in Python allow you to perform basic mathematical calculations on numeric values such as integers and floats. They’re the building blocks of math in your code — just like +, -, ×, ÷ on a real calculator.
 - Imagine you’re building a simple calculator app for your little cousin who just started learning math.
