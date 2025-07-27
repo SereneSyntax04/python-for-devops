@@ -12,4 +12,4 @@ That’s where identity operators come in. They help answer the question:
 | `is`     | Returns `True` if **both operands refer to the same object** in memory.                |
 | `is not` | Returns `True` if **operands refer to different objects**, even if they look the same. |
 
-[Examples]()
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Identity.py)
