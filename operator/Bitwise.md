@@ -20,4 +20,4 @@ Bitwise operators are used to perform operations on the individual bits of integ
 - Python stores integers with signed bits, so the result of ~ (bitwise NOT) might seem confusing:
   ~n = -(n + 1)
 
-  [example]()
+  [example](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Bitwise.py)
