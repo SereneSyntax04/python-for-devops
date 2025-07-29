@@ -16,3 +16,4 @@
 
 > If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync.
 > In the Codespace terminal, run: git pull origin main (this will sync the changes done and will be reflected in codespace)
+> git pull --no-rebase this command is for when working with codespace and want to merge new created branch to main
