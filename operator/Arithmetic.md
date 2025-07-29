@@ -16,4 +16,4 @@ Arithmetic operators in Python allow you to perform basic mathematical calculati
 
 These operators can be used with variables or direct numeric values, and Python handles type conversion automatically when needed. 
 
-[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/arithemetic.py)
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Arithemetic.py)
