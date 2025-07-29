@@ -20,4 +20,4 @@ That’s logic. Python gives you three main tools to do it: and, or, and not.
 - To combine smaller checks into a bigger decision
 - To invert a condition when needed
 
-[Examples]()
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Logical.py)
