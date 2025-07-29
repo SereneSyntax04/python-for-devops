@@ -23,4 +23,4 @@ These checks return a simple True or False.
 - To filter or validate input
 - To conditionally trigger logic (like access checks or search operations)
 
-[Examples]()
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Membership.py)
