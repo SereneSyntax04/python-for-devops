@@ -72,3 +72,6 @@ else:
 
 > 🧩 **if → elif → else** <br>
 > Keep asking “what if…” until nothing fits — then use `else`.
+
+
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/Conditional.py)
