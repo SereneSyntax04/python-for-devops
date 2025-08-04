@@ -14,6 +14,8 @@
 
 [7.  🔀 Conditional Statements – Making Decisions in Code](https://github.com/SereneSyntax04/python-for-devops/blob/main/Conditional.md)
 
+[8.  🎯 Understanding Tuples](https://github.com/SereneSyntax04/python-for-devops/blob/main/tuple.md) [and Lists]()
+
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
 > If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync.
