@@ -21,3 +21,5 @@ def get_server_info():
 ip, port = get_server_info()
 print(f"Connect to {ip} on port {port}")
 ```
+
+[Example](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/tuple.py)
