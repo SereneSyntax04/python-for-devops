@@ -14,7 +14,7 @@
 
 [7.  🔀 Conditional Statements – Making Decisions in Code](https://github.com/SereneSyntax04/python-for-devops/blob/main/Conditional.md)
 
-[8.  🎯 Understanding Tuples](https://github.com/SereneSyntax04/python-for-devops/blob/main/tuple.md) <br> [🎯 UnderstandingLists](https://github.com/SereneSyntax04/python-for-devops/blob/main/Lists.md)
+[8.  🎯 Understanding Tuples](https://github.com/SereneSyntax04/python-for-devops/blob/main/tuple.md) <br> [🎯 Understanding Lists](https://github.com/SereneSyntax04/python-for-devops/blob/main/Lists.md)
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
