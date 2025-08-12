@@ -62,3 +62,4 @@ disk_usages = [45, 72, 88, 50]  # in %
 for usage in disk_usages:
     if usage > 80:
         print(f"⚠️ High disk usage: {usage}%")
+
