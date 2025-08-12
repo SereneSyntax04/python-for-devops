@@ -24,3 +24,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+# enter userinput: /opt /tmp /xyz 
+    # here /opt and /tmp are valid folders while /xyz is not , as per the requirement we entered the folder names separated by space
