@@ -22,7 +22,7 @@ The while loop continues to execute a block of code as long as a specified condi
 It’s useful when you don’t know in advance how many times to run the loop.
 
 Syntax:
-```pyhton
+```python
 while condition:
     # Code to be executed as long as condition is true
 ```
