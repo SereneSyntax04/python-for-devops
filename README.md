@@ -18,6 +18,8 @@
 
 [9.  🔁 Loops in Python ](https://github.com/SereneSyntax04/python-for-devops/blob/main/loops.md)
 
+[10.  Dictionaries](https://github.com/SereneSyntax04/python-for-devops/blob/main/dict.md)
+
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
 > If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync.
