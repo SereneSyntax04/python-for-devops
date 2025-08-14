@@ -19,4 +19,5 @@ my_dict = {
 Here:
 - "name", "age", "skills" → keys
 - "Shrushti", 21, ["Python", "AWS", "DevOps"] → values
+  
 [Examples]()
