@@ -20,4 +20,4 @@ Here:
 - "name", "age", "skills" → keys
 - "Shrushti", 21, ["Python", "AWS", "DevOps"] → values
   
-[Examples]()
+[Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/dict.py)
