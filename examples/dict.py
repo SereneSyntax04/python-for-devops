@@ -49,4 +49,6 @@ Get pull request information on a repository using python
     so basically will write a python script to interact with github repo (api)
     1. we need to identify module that we need and its: 'request' module.
     2. using the moule we need to make api call
+    3. Any tool that we interact with gives result in JSON format so now we gotta convert this into dictionary format so python can interact with.
+    4. print the required thing (pull request)
 '''
