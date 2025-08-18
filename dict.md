@@ -21,3 +21,10 @@ Here:
 - "Shrushti", 21, ["Python", "AWS", "DevOps"] → values
   
 [Examples](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/dict.py)
+
+---
+
+# TASK
+## Get pull requst information on a repository using python:
+
+[refer to this link for entire code](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/dictTask.py)
