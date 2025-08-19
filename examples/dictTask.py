@@ -16,10 +16,6 @@
 
 # pip  install requests (terminal)
 import requests
-# If you’re just learning and don’t need fresh API responses every time, you can cache the responses locally so you don’t waste API calls:
-# pip install requests-cache
-import requests_cache
-requests_cache.install_cache('github_cache', expire_after=3600)
 
 '''
 requests module in Python — it’s basically your go-gitto tool for working with HTTP in Python. 
@@ -51,8 +47,7 @@ response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pull
 
 complete_detail = response.json()
 
-print(type(complete_detail))  # check it's type dict or list
-
+print(type(complete_detail))  # check it's type dict or list (if its dict, you hit the api limit try again afer 60 min.)
 
 
 # this is for when type is list
@@ -61,6 +56,3 @@ print(len(complete_detail))    # how many PRs are returned?
 print(complete_detail[0]["id"])  # get the 'id' key , using [] since its list
 print(complete_detail[2]["user"]["login"]) # nested dictionaries: ["user"] → inside that PR’s dictionary, there’s a "user" key. Its value is another dictionary (with details about the user who opened the PR). ["login"] → finally, this extracts the GitHub username of that user.
 '''
-
-# this is for when type is dictionary
-print(complete_detail)
