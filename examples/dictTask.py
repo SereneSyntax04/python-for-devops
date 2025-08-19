@@ -55,4 +55,6 @@ print(type(complete_detail))  # check it's type dict or list (if its dict, you h
 print(len(complete_detail))    # how many PRs are returned?
 print(complete_detail[0]["id"])  # get the 'id' key , using [] since its list
 print(complete_detail[2]["user"]["login"]) # nested dictionaries: ["user"] → inside that PR’s dictionary, there’s a "user" key. Its value is another dictionary (with details about the user who opened the PR). ["login"] → finally, this extracts the GitHub username of that user.
+for i in range(len(complete_detail)):
+    print(complete_detail[i]["user"]["login"])
 '''
