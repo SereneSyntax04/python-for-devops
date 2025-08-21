@@ -73,5 +73,7 @@ os.remove("example.txt")
 ---
 # TASK:
 Updates the value of a given key in a server configuration file. <br>
-Example: MAX_CONNECTIONS=200  ->  MAX_CONNECTIONS=600
-[refer this link for task]()
+Example: MAX_CONNECTIONS=200  ->  MAX_CONNECTIONS=600 <br>
+
+
+[refer this link for task](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples/file)
