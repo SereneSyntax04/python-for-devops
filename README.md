@@ -18,7 +18,7 @@
 
 [9.  🔁 Loops in Python ](https://github.com/SereneSyntax04/python-for-devops/blob/main/loops.md)
 
-[10.  Dictionaries](https://github.com/SereneSyntax04/python-for-devops/blob/main/dict.md)
+[10.  📖 Dictionaries](https://github.com/SereneSyntax04/python-for-devops/blob/main/dict.md)
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
