@@ -25,6 +25,10 @@ Here:
 ---
 
 # TASK
-## Get pull requst information on a repository using python:
+## 1. Get pull requst information on a repository using python:
 
 [refer to this link for entire code](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/dictTask.py)
+
+
+## 2. Write a Python function to fetch the status of a server from a nested dictionary of server configurations, returning 'Server not found' if the server doesn’t exist.
+[refer to this link for entire code](https://github.com/SereneSyntax04/python-for-devops/blob/main/examples/dictTask2.py)
