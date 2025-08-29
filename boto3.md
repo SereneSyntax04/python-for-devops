@@ -77,25 +77,25 @@ There are multiple tools to work with AWS: CFT, Terraform, AWS CLI, and boto3.
 2. Search for:  
    ``` dev container ``` <br>
 <p align="center">
-  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/70b15f08b0913fa7dafab663c02ea9cc79a2ed9b/images/boto_1.png" 
        alt="DevOps Project" 
-       width="400"/>
+       width="600"/>
 </p>
 
    
 3. select "Modify your active configuration…" <br>
 <p align="center">
-  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/70b15f08b0913fa7dafab663c02ea9cc79a2ed9b/images/boto_2.png" 
        alt="DevOps Project" 
-       width="400"/>
+       width="600"/>
 </p>
 
    
 4. From the pop-up, check ✅ AWS CLI <br>
 <p align="center">
-  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/70b15f08b0913fa7dafab663c02ea9cc79a2ed9b/images/boto_3.png" 
        alt="DevOps Project" 
-       width="400"/>
+       width="600"/>
 </p>
 
 
@@ -111,23 +111,39 @@ aws --version
 
 - ❌ command not found → rebuild your container.
 
- ## FIX THE ISSUE: 
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/70b15f08b0913fa7dafab663c02ea9cc79a2ed9b/images/boto_4.png" 
+       alt="DevOps Project" 
+       width="600"/>
+</p>
+
+ ## FIX THE ISSUE if facing 'command not found' : 
  How to rebuild
 
-- Open Command Palette → search Rebuild Container.
+- Open Command Palette → search 'Rebuild Container'.
 - Wait for Codespace to restart & install AWS CLI.
 - Run again:
    ```
    aws --version
    ```
-<p align="center">
-  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
-       alt="DevOps Project" 
-       width="400"/>
-</p>
+
+## Step 3: Configure AWS & Install Boto3
+
+Now that AWS CLI is installed, configure it with your IAM credentials:
+
+aws configure
+ 👉 Provide:
+
+- AWS Access Key ID
+- AWS Secret Access Key
+- Default region (e.g., ap-south-1)
+- Output format (leave as json or table)
+
+Then install boto3 (Python AWS SDK):
+``` pip install boto3 ```
 
 
-## Step 3: Write Python Script with Boto3
+## Step 4: Write Python Script with Boto3
 
 Go to the official [Boto3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
