@@ -66,6 +66,7 @@ There are multiple tools to work with AWS: CFT, Terraform, AWS CLI, and boto3.
 
 step1: open codespace and in search bar search for <br>
 > dev container
+
 [image]()
 
 <br><br>
@@ -82,8 +83,8 @@ a new pop-up will be shown and select aws cli..<br>
 
 
 NOW TRY :  
-> aws --version
-> if it gives command not found The feature didn’t actually get installed into your Codespace container.
+> aws --version <br>
+> if it gives command not found The feature didn’t actually get installed into your Codespace container. <br>
 > You need to rebuild/restart your container for the changes to take effect.
 
 ## 1: Rebuild the container
@@ -97,6 +98,7 @@ type: Rebuild Container
 
 After it’s done, run:
 aws --version
+
 [image]()
 
 
@@ -106,3 +108,8 @@ aws --version
 2. in side bar go to Available services
 3. search for s3
 4. follow the command:
+   
+<br>
+
+[follow this link to view entire code](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3.py) 
+[to delete the created bucked using python script, follow this link]()
