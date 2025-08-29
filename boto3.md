@@ -59,9 +59,50 @@ There are multiple tools to work with AWS: CFT, Terraform, AWS CLI, and boto3.
 > Use AWS CLI → when you want quick, one-off commands.
 > Use boto3 → when you need automation, logic, integration, or serverless apps (Lambda with Python).
 
-
-
 ---
 
+# project using github codespace and boto3
+## 1. launch s3 using boto3
+
+step1: open codespace and in search bar search for <br>
+> dev container
+[image]()
+
+<br><br>
+
+now continue by modifying your active configuration.... <br>
+[image]()
+
+<br><br>
+
+a new pop-up will be shown and select aws cli..<br>
+[image]()
+
+<br><br>
 
 
+NOW TRY :  
+> aws --version
+> if it gives command not found The feature didn’t actually get installed into your Codespace container.
+> You need to rebuild/restart your container for the changes to take effect.
+
+## 1: Rebuild the container
+Inside your Codespace (browser tab), press
+- Ctrl + Shift + P (Windows/Linux)
+
+A search bar (Command Palette) will appear at the top.
+
+type: Rebuild Container
+- Select it → wait while the container restarts and installs the new dev container features (like AWS CLI).
+
+After it’s done, run:
+aws --version
+[image]()
+
+
+## 2: create new file 
+
+1. search boto3 documentation on google
+2. in side bar go to Available services
+3. search for s3
+4. follow the command:
