@@ -22,6 +22,7 @@
 
 [11.    📑 File Handling](https://github.com/SereneSyntax04/python-for-devops/blob/main/file.md)
 
+[12.    ☁️ Boto3 (AWS SDK for Python + Project)](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3.md)
 
 [examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
