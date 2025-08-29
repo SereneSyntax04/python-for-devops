@@ -76,13 +76,28 @@ There are multiple tools to work with AWS: CFT, Terraform, AWS CLI, and boto3.
 
 2. Search for:  
    ``` dev container ``` <br>
-   [image]()
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+       alt="DevOps Project" 
+       width="400"/>
+</p>
+
    
 3. select "Modify your active configuration…" <br>
-   [image]()
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+       alt="DevOps Project" 
+       width="400"/>
+</p>
+
    
 4. From the pop-up, check ✅ AWS CLI <br>
-   [image]()
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+       alt="DevOps Project" 
+       width="400"/>
+</p>
+
 
 <br><br>
 
@@ -105,7 +120,12 @@ aws --version
    ```
    aws --version
    ```
-[image]()
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+       alt="DevOps Project" 
+       width="400"/>
+</p>
+
 
 ## Step 3: Write Python Script with Boto3
 
@@ -124,4 +144,9 @@ Use them in your Python script
 - [🗑️ Delete S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3delete.py)
 
 
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
+       alt="DevOps Project" 
+       width="600"/>
+</p>
 
