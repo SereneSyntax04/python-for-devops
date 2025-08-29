@@ -1,4 +1,5 @@
-# BOTO3:
+<h1 align="center"> BOTO3:</h1>
+
 Boto3 is basically AWS’s official SDK (Software Development Kit) for Python. <br>
 It’s the tool you use when you want Python code to talk to AWS services like S3, EC2, DynamoDB, Lambda, IAM, etc. <br>
 
@@ -61,55 +62,66 @@ There are multiple tools to work with AWS: CFT, Terraform, AWS CLI, and boto3.
 
 ---
 
-# project using github codespace and boto3
-## 1. launch s3 using boto3
-
-step1: open codespace and in search bar search for <br>
-> dev container
-
-[image]()
-
-<br><br>
-
-now continue by modifying your active configuration.... <br>
-[image]()
-
-<br><br>
-
-a new pop-up will be shown and select aws cli..<br>
-[image]()
-
-<br><br>
-
-
-NOW TRY :  
-> aws --version <br>
-> if it gives command not found The feature didn’t actually get installed into your Codespace container. <br>
-> You need to rebuild/restart your container for the changes to take effect.
-
-## 1: Rebuild the container
-Inside your Codespace (browser tab), press
-- Ctrl + Shift + P (Windows/Linux)
-
-A search bar (Command Palette) will appear at the top.
-
-type: Rebuild Container
-- Select it → wait while the container restarts and installs the new dev container features (like AWS CLI).
-
-After it’s done, run:
-aws --version
-
-[image]()
-
-
-## 2: create new file 
-
-1. search boto3 documentation on google
-2. in side bar go to Available services
-3. search for s3
-4. follow the command:
-   
 <br>
 
-[follow this link to view entire code](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3.py) 
-[to delete the created bucked using python script, follow this link]()
+<h1 align="center">  Project using Github CodeSpace and Boto3  ☁️ </h1>
+
+<h2 align="center">🪣 Launch S3 using Boto3</h2>
+
+## Step 1: Setup AWS CLI in Codespaces  
+
+1. Open your Codespace and launch the **Command Palette**  
+   - `Ctrl + Shift + P` (Windows/Linux)  <br>
+   - `Cmd + Shift + P` (Mac)  <br>
+
+2. Search for:  
+   ``` dev container ``` <br>
+   [image]()
+   
+3. select "Modify your active configuration…" <br>
+   [image]()
+   
+4. From the pop-up, check ✅ AWS CLI <br>
+   [image]()
+
+<br><br>
+
+## Step 2: Verify Installation
+
+1. Run inside terminal:
+```bash
+aws --version
+```
+- ✅ Shows version → AWS CLI installed successfully.
+
+- ❌ command not found → rebuild your container.
+
+ ## FIX THE ISSUE: 
+ How to rebuild
+
+- Open Command Palette → search Rebuild Container.
+- Wait for Codespace to restart & install AWS CLI.
+- Run again:
+   ```
+   aws --version
+   ```
+[image]()
+
+## Step 3: Write Python Script with Boto3
+
+Go to the official [Boto3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+In sidebar → Available Services → S3 
+
+Check [create_bucket and other methods](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
+
+Use them in your Python script
+
+📄 Example scripts from this repo:
+
+- [📝 Create S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3.py)
+
+- [🗑️ Delete S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3delete.py)
+
+
+
