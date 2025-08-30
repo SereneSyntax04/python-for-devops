@@ -146,23 +146,77 @@ Then install boto3 (Python AWS SDK):
 ## Step 4: Write Python Script with Boto3
 
 Go to the official [Boto3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+<p>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_7.png" 
+       alt="DevOps Project" 
+       width="600"/>
+</p>
 
 In sidebar → Available Services → S3 
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_8.png" width="300" height="300"/><br>
+      <sub>Step 1: Sidebar → Available Services</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_9.png" width="300" height="300"/><br>
+      <sub>Step 2: Select S3</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_10.png" width="300" height="300"/><br>
+      <sub>Step 3: Bucket Management Commands</sub>
+    </td>
+  </tr>
+</table>
+
+
 Check [create_bucket and other methods](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_11.png" width="500" height="500"/><br>
+  <sub>Step 4: Select <b>CreateBucket</b> from the available command options</sub>
+</p>
+<br>
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_12.png" width="500" height="500"/><br>
+  <sub>Step 5: Scroll to <b>Request Syntax</b> → Find required parameters & commands</sub>
+</p>
+
 
 Use them in your Python script
 
 📄 Example scripts from this repo:
 
 - [📝 Create S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3.py)
-
-- [🗑️ Delete S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3delete.py)
-
-
 <p align="center">
-  <img src="https://github.com/SereneSyntax04/DevOps-on-AWS/blob/55328814944d70df402032ab518199d2c1301ea7/images/devops.png" 
-       alt="DevOps Project" 
-       width="600"/>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_13.png" width="500" height="500"/><br>
+  <sub>Python script to create an S3 bucket using Boto3</sub>
+</p>
+<br>
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_14.png" width="500" height="500"/><br>
+  <sub>AWS S3 Console → Bucket successfully created</sub>
 </p>
 
+
+- [🗑️ Delete S3 bucket](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/s3delete.py)
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_15.png" width="500" height="500"/><br>
+  <sub>Python script to delete an S3 bucket using Boto3</sub>
+</p>
+<br>
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/e508351d81c5191e50dbb43766c74dbb6a14fbe0/images/boto_16.png" width="500" height="500"/><br>
+  <sub>AWS S3 Console → Bucket no longer listed after deletion</sub>
+</p>
+
+---
+
+### 📌 **Project Summary**  
+
+**🚀 Project:** Using **Python & Boto3** in **GitHub Codespaces**  
+**✅ Task:** Create and delete an **AWS S3 bucket** via Python scripts  
+**🛠️ Skills demonstrated:** AWS CLI setup, credential configuration, Python scripting, S3 bucket management, verification in **AWS Console**
+
+---
