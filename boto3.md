@@ -220,3 +220,18 @@ Use them in your Python script
 **🛠️ Skills demonstrated:** AWS CLI setup, credential configuration, Python scripting, S3 bucket management, verification in **AWS Console**
 
 ---
+
+<h2 align="center">🔐 Get Bucket ACL</h2>
+
+This script retrieves the **Access Control List (ACL)** of an S3 bucket.  
+
+- The ACL contains information about the **bucket owner** and the **grants/permissions** assigned to users, groups, or accounts.  
+- Each **grant** defines which AWS account or group has what type of access (e.g., `READ`, `WRITE`, `FULL_CONTROL`).  
+- ACLs are useful to verify and audit **who can access your bucket** and what actions they are allowed to perform.  
+- ⚠️ Important: AWS now recommends using **Bucket Policies or IAM Roles** for fine-grained permissions over ACLs for better security, but ACLs are still supported for backward compatibility.  
+
+<br>
+<p align="center">
+  <img src="" width="500" height="500"/><br>
+  <sub>Python script to fetch the ACL (Access Control List) of an S3 bucket using Boto3</sub>
+</p>
