@@ -1,3 +1,4 @@
+                                                            # TASK1 Launch S3 using Boto3
 import boto3
 
 # Create an S3 client
@@ -14,6 +15,7 @@ region = "ap-south-1"
 #   - must be lowercase
 #   - only letters, numbers, dots, and hyphens
 #   - must be globally unique across all AWS accounts
+
 response = client.create_bucket(
     Bucket='python-for-devops-project1-2025',   # ✅ valid bucket name
     CreateBucketConfiguration={
@@ -22,5 +24,9 @@ response = client.create_bucket(
 )
 
 # Print the response from AWS
-print("Bucket created:", response)
+print("Bucket created")
+
+
+
+
 
