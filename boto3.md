@@ -230,8 +230,12 @@ This script retrieves the **Access Control List (ACL)** of an S3 bucket.
 - ACLs are useful to verify and audit **who can access your bucket** and what actions they are allowed to perform.  
 - ⚠️ Important: AWS now recommends using **Bucket Policies or IAM Roles** for fine-grained permissions over ACLs for better security, but ACLs are still supported for backward compatibility.  
 
-<br>
+
+📄 scripts from this repo:
+- [Fetch the ACL of an S3 bucket using Boto3]()
+
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/f0f66f0a2265fb802e9455ed2f7561684827a542/images/boto3_task2.png" width="500" height="500"/><br>
   <sub>Python script to fetch the ACL (Access Control List) of an S3 bucket using Boto3</sub>
 </p>
+
