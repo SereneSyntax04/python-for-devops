@@ -232,7 +232,7 @@ This script retrieves the **Access Control List (ACL)** of an S3 bucket.
 
 
 📄 scripts from this repo:
-- [Fetch the ACL of an S3 bucket using Boto3]()
+- [Fetch the ACL of an S3 bucket using Boto3](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3/TASK2s3.py)
 
 <p align="center">
   <img src="https://github.com/SereneSyntax04/python-for-devops/blob/f0f66f0a2265fb802e9455ed2f7561684827a542/images/boto3_task2.png" width="500" height="500"/><br>
