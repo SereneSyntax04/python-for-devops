@@ -256,14 +256,14 @@ Copy the code snippet and update it with:
 - Key → the object name inside S3 (e.g., "sample.txt")
    
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/c2b91234c304e2a1da0a24aa1c9201063b022b5c/images/s3upload1.png" width="500" height="500"/><br>
   <sub>Python script to upload a file into an S3 bucket using Boto3</sub>
 </p>
 
 Run the script, then check your AWS S3 Console → you should see the file inside your bucket.
 
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/c2b91234c304e2a1da0a24aa1c9201063b022b5c/images/s3upload2.png" width="500" height="500"/><br>
   <sub>AWS S3 Console showing the uploaded file inside the bucket</sub>
 </p>
 
