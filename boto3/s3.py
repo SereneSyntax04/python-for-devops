@@ -10,6 +10,7 @@ client = boto3.client('s3')
 # NOTE: If you use "us-east-1", you must NOT include CreateBucketConfiguration
 region = "ap-south-1"
 
+
 # Create the bucket
 # Bucket naming rules:
 #   - must be lowercase
