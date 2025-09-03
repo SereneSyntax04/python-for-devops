@@ -239,3 +239,55 @@ This script retrieves the **Access Control List (ACL)** of an S3 bucket.
   <sub>Python script to fetch the ACL (Access Control List) of an S3 bucket using Boto3</sub>
 </p>
 
+
+---
+
+<h2 align="center">📤 Upload File to S3 Bucket</h2>
+
+This script demonstrates how to **upload a local file** into an S3 bucket using Boto3.  
+
+### Steps:
+1. Create a sample text file in your Codespace (sample.txt)
+2. Launch an S3 bucket (use the script from Task 1: Create S3 Bucket).
+3. Open Boto3 Documentation → [S3 → Client → upload_file](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/upload_file.html), 
+Copy the code snippet and update it with:
+- File path → "workspaces/python-for-devops/boto3/sample.txt" (or your own filepath)
+- Bucket name → your created bucket
+- Key → the object name inside S3 (e.g., "sample.txt")
+   
+<p align="center">
+  <img src="" width="500" height="500"/><br>
+  <sub>Python script to upload a file into an S3 bucket using Boto3</sub>
+</p>
+
+Run the script, then check your AWS S3 Console → you should see the file inside your bucket.
+
+<p align="center">
+  <img src="" width="500" height="500"/><br>
+  <sub>AWS S3 Console showing the uploaded file inside the bucket</sub>
+</p>
+
+---
+
+<h2 align="center">📥 Download File from S3 Bucket</h2>
+
+This script demonstrates how to **download a file** from an S3 bucket into your local Codespace using Boto3.  
+
+### Steps:
+1. Upload a text file into your S3 bucket (use the script from **Task 3: Upload File** or manually upload the file from aws console).  
+2. Open [Boto3 Documentation → S3 → Client → `download_file`](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/download_file.html).  
+3. Copy the code snippet and update it with:  
+   - **Bucket name** → your created bucket  
+   - **Key** → the object name in S3 (e.g., `"sample.txt"`)  
+   - **Filename** → local path where the file will be saved (e.g., `"downloaded_sample.txt"`)  
+<p align="center">
+  <img src="" width="500" height="500"/><br>
+  <sub>Python script to download a file from an S3 bucket using Boto3</sub>
+</p>
+
+Run the script, then check your Codespace → verify that downloaded_sample.txt is created and contains the expected content.
+
+<p align="center">
+  <img src="" width="500" height="500"/><br>
+  <sub>Codespace showing the downloaded file saved locally</sub>
+</p>
