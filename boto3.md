@@ -256,14 +256,14 @@ Copy the code snippet and update it with:
 - Key → the object name inside S3 (e.g., "sample.txt")
    
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/c2b91234c304e2a1da0a24aa1c9201063b022b5c/images/s3upload1.png" width="500" height="500"/><br>
   <sub>Python script to upload a file into an S3 bucket using Boto3</sub>
 </p>
 
 Run the script, then check your AWS S3 Console → you should see the file inside your bucket.
 
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/c2b91234c304e2a1da0a24aa1c9201063b022b5c/images/s3upload2.png" width="500" height="500"/><br>
   <sub>AWS S3 Console showing the uploaded file inside the bucket</sub>
 </p>
 
@@ -275,19 +275,24 @@ This script demonstrates how to **download a file** from an S3 bucket into your 
 
 ### Steps:
 1. Upload a text file into your S3 bucket (use the script from **Task 3: Upload File** or manually upload the file from aws console).  
+<p align="center">
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/f3215a4ec8d7b5979e35818e791a7243b916b533/images/s3download1.png" width="500" height="500"/><br>
+  <sub>Upload a text file into your S3 bucket</sub>
+</p>
+
 2. Open [Boto3 Documentation → S3 → Client → `download_file`](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/download_file.html).  
 3. Copy the code snippet and update it with:  
    - **Bucket name** → your created bucket  
    - **Key** → the object name in S3 (e.g., `"sample.txt"`)  
    - **Filename** → local path where the file will be saved (e.g., `"downloaded_sample.txt"`)  
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/f3215a4ec8d7b5979e35818e791a7243b916b533/images/s3download2.png" width="500" height="500"/><br>
   <sub>Python script to download a file from an S3 bucket using Boto3</sub>
 </p>
 
 Run the script, then check your Codespace → verify that downloaded_sample.txt is created and contains the expected content.
 
 <p align="center">
-  <img src="" width="500" height="500"/><br>
+  <img src="https://github.com/SereneSyntax04/python-for-devops/blob/f3215a4ec8d7b5979e35818e791a7243b916b533/images/s3download3.png" width="500" height="500"/><br>
   <sub>Codespace showing the downloaded file saved locally</sub>
 </p>
