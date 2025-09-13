@@ -6,15 +6,10 @@
 - Pay only for:
   - Number of requests
   - Execution time (duration in ms)
+- AWS Lambda removes the need for server management by automatically scaling code execution on demand, making it cost-efficient and ideal for event-driven or unpredictable workloads.
 
 
-
-## 2. What Problem Does Lambda Solve?
-AWS Lambda removes the need for server management by automatically scaling code execution on demand, making it cost-efficient and ideal for event-driven or unpredictable workloads.
-
-
-
-## 3. Compute Models: EC2 vs Lambda
+## 2. Compute Models: EC2 vs Lambda
 
 | Feature          | **EC2 (Traditional Compute)**                       | **Lambda (Serverless Compute)**         |
 |------------------|------------------------------------------------------|------------------------------------------|
@@ -43,13 +38,17 @@ Examples of serverless services:
 - **Automation**:
   - Trigger scripts on S3 file upload, EC2 state change, or CloudWatch event.  
   - Example: Run Python code to resize images when uploaded to S3.  
+
 - **CI/CD Pipelines**:
   - Integrate with CodePipeline/CodeBuild for deployments.  
   - Example: Run automated post-deployment checks.  
+
 - **Monitoring & Alerts**:
   - Process CloudWatch logs and send alerts to Slack/Teams.  
+
 - **Infrastructure Ops**:
   - Auto-start/stop EC2 instances on schedule (cost optimization).  
+  
 - **Security**:
   - Auto-remediate security issues (close open ports, rotate keys).  
 
