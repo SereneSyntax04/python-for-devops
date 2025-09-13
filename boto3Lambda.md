@@ -21,7 +21,7 @@
 
 
 
-## 4. What is "Serverless"?
+## 3. What is "Serverless"?
 - A cloud model where:
   - You focus only on writing code/business logic.  
   - No need to manage servers, scaling, or infrastructure.  
@@ -32,25 +32,23 @@ Examples of serverless services:
 - DynamoDB (database)
 - S3 (storage)
 
+## 4. How DevOps Engineers Use Lambda
 
+DevOps engineers use AWS Lambda extensively to automate and simplify cloud operations. <br>
+1. It can trigger scripts based on events such as S3 file uploads, EC2 state changes, or CloudWatch alarms—for example, resizing images automatically when they are uploaded to S3. 
+2. Lambda also integrates into CI/CD pipelines with services like CodePipeline and CodeBuild, enabling automated checks after deployments. 
+3. For monitoring, it processes CloudWatch logs and can send alerts directly to collaboration tools like Slack or Microsoft Teams. 
+4. In infrastructure management, Lambda helps optimize costs by automatically starting or stopping EC2 instances on a schedule. 
+5. It is also valuable for security, where it can automatically remediate issues such as closing open ports or rotating keys. 
+<br> Overall, Lambda gives DevOps engineers a serverless, event-driven way to handle automation, monitoring, infrastructure, and security with minimal overhead.
 
-## 5. How DevOps Engineers Use Lambda
-- **Automation**:
-  - Trigger scripts on S3 file upload, EC2 state change, or CloudWatch event.  
-  - Example: Run Python code to resize images when uploaded to S3.  
+---
 
-- **CI/CD Pipelines**:
-  - Integrate with CodePipeline/CodeBuild for deployments.  
-  - Example: Run automated post-deployment checks.  
+### Q: If there's a script that needs to run every day at 10 AM for 15 minutes, what approach should you use — EC2 or Lambda, and why?
 
-- **Monitoring & Alerts**:
-  - Process CloudWatch logs and send alerts to Slack/Teams.  
+**Answer:**  
+The best approach is to use **AWS Lambda** with an **EventBridge (CloudWatch Events) schedule**. Lambda can run for up to 15 minutes, which matches the script’s requirement, and it eliminates the need to manage any servers. With EC2, you would have to launch an instance daily, run the script, and then terminate it to avoid unnecessary costs. Forgetting to stop the instance could result in paying for idle time, and overall it adds more operational overhead.  
 
-- **Infrastructure Ops**:
-  - Auto-start/stop EC2 instances on schedule (cost optimization).  
-  
-- **Security**:
-  - Auto-remediate security issues (close open ports, rotate keys).  
-
+By using Lambda, you get a fully **serverless, automated, and cost-efficient** solution. You pay only for the actual execution time, and scaling is handled automatically if you need to run multiple scripts in parallel in the future. This makes Lambda with EventBridge the most practical and reliable option for scheduled tasks of 15 minutes or less.  
 
 
