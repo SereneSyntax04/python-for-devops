@@ -106,3 +106,8 @@ This project demonstrates how **AWS Lambda** combined with **CloudWatch Events (
 Extend the same approach to EBS, RDS, EC2, S3, and EKS.
 
 
+<p align="center">
+  <img src="reference" 
+       alt="reference" 
+       width="600"/>
+</p>
