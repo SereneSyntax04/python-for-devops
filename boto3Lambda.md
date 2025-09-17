@@ -51,4 +51,6 @@ The best approach is to use **AWS Lambda** with an **EventBridge (CloudWatch Eve
 
 By using Lambda, you get a fully **serverless, automated, and cost-efficient** solution. You pay only for the actual execution time, and scaling is handled automatically if you need to run multiple scripts in parallel in the future. This makes Lambda with EventBridge the most practical and reliable option for scheduled tasks of 15 minutes or less.  
 
+---
 
+## 5. Best usecase of serverless architecture
