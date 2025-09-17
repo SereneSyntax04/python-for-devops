@@ -54,3 +54,23 @@ By using Lambda, you get a fully **serverless, automated, and cost-efficient** s
 ---
 
 ## 5. Best usecase of serverless architecture
+
+#### 1. Cost Optimization
+Serverless platforms like AWS Lambda follow a **pay-as-you-go** model.  
+- You are only billed for the compute time when your code is executed.  
+- No costs are incurred for idle resources.  
+- This makes Lambda highly cost-efficient, especially for workloads with variable or unpredictable traffic.  
+
+#### 2. Compliance and Security
+Serverless functions can help organizations enforce **governance, compliance, and security policies** by automating checks and responses.  
+
+**Example Use Case:**  
+Suppose an organization has a policy that **no one should create an EBS volume of type `gp2`** (since `gp3` is cheaper and recommended).  
+- A developer mistakenly creates a `gp2` volume.  
+- A scheduled **Lambda function** can run every day at 10 AM to:  
+  1. Identify if there are any `gp2` volumes.  
+  2. If found, trigger an **SNS notification** to alert the management or compliance team.  
+
+This ensures compliance by continuously monitoring the environment and notifying stakeholders whenever a violation occurs.
+
+
