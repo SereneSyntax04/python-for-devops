@@ -26,9 +26,13 @@
 
 [13.    ☁️ Boto3 with AWS – Automating Cloud Resources (Theory + Project)](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3.md)
 
-[project with lambda and boto3](https://github.com/SereneSyntax04/python-for-devops/blob/main/boto3Lambda.md)
 
-[examples](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
+---
+
+
+[🔑 Core Responsibilities of a DevOps Engineer ](https://github.com/SereneSyntax04/python-for-devops/blob/main/responsibilities.md)
+
+[Examples folder for demo](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
 > If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync. <br>
 > In the Codespace terminal, run: git pull origin main (this will sync the changes done and will be reflected in codespace) <br>

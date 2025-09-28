@@ -1,5 +1,10 @@
-<h2 align="center"> AWS Lambda </h1>
-(foundational, cloudwatch + lambda, serverless approach)
+> 🔑 Core Responsibilities of a DevOps Engineer <br>
+> Every DevOps engineer generally deals with two major tasks: <br>
+> 1. Compliance & Security Automation – Ensuring the AWS environment follows organizational policies and remains secure.
+> 2. Cost Optimization – Making sure cloud resources are used efficiently and costs are minimized.
+
+<h2 align="center"> Compliance and Security Automation with AWS Lambda </h1>
+(foundational, cloudwatch + lambda, serverless approach, compliance and security automation)
 
 ## 1. What is AWS Lambda?
 - **AWS Lambda** is a *serverless compute service* provided by AWS.  
@@ -54,7 +59,22 @@ By using Lambda, you get a fully **serverless, automated, and cost-efficient** s
 
 ---
 
+## TASK : Compliance and Security Automation with AWS Lambda
+
+📌 Scenario
+
+Organizations running workloads on AWS need to follow governance and compliance policies to avoid unnecessary costs, security loopholes, or non-standard resource usage. However, developers may accidentally create resources that don’t comply with organizational policies (e.g., using outdated EBS volume types, enabling public S3 buckets, or provisioning non-approved instance types).
+
+As a Cloud Engineering team, our responsibility is to:
+
+- Continuously monitor the AWS environment.
+- Enforce compliance with organizational policies.
+- Automate responses to violations to reduce manual overhead.
+
+This project demonstrates how AWS Lambda combined with CloudWatch Events (EventBridge) can be used to detect non-compliant resources and take corrective actions.
+
+> This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
 ---
 
-<h2 align="center"> AWS Lambda </h1>
-(foundational, cloudwatch + lambda, serverless approach)
+<h2 align="center"> Cost Optimization </h1>
+()
