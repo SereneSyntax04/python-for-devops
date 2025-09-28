@@ -34,6 +34,7 @@
 
 [Examples folder for demo](https://github.com/SereneSyntax04/python-for-devops/tree/main/examples)
 
+new changes
 > If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync. <br>
 > In the Codespace terminal, run: git pull origin main (this will sync the changes done and will be reflected in codespace) <br>
 > git pull --no-rebase this command is for when working with codespace and want to merge new created branch to main 
