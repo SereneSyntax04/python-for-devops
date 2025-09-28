@@ -54,11 +54,4 @@ By using Lambda, you get a fully **serverless, automated, and cost-efficient** s
 
 ---
 
-(DEMO FOR cloudwatch + lambda)[https://github.com/SereneSyntax04/AWS/blob/main/PRAC1-cldwatch.pdf]
-
----
-
-<h2 align="center"> Cost Optimization </h1>
-(major task of devops engineer is to ensure cost optimization)
-
-## 
+## 5. Best usecase of serverless architecture
