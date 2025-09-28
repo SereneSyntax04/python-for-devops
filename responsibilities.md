@@ -3,7 +3,9 @@
 > 1. Compliance & Security Automation – Ensuring the AWS environment follows organizational policies and remains secure.
 > 2. Cost Optimization – Making sure cloud resources are used efficiently and costs are minimized.
 
-<h2 align="center"> Compliance and Security Automation with AWS Lambda </h1>
+
+
+<h1 align="center"> Compliance and Security Automation with AWS Lambda </h1>
 (foundational, cloudwatch + lambda, serverless approach, compliance and security automation)
 
 ## 1. What is AWS Lambda?
@@ -26,7 +28,6 @@
 | **Language**     | Any (via AMI/containers)                             | Supports multiple runtimes (Python, Node, Go, etc.) |
 
 
-
 ## 3. What is "Serverless"?
 - A cloud model where:
   - You focus only on writing code/business logic.  
@@ -37,6 +38,7 @@ Examples of serverless services:
 - AWS Lambda (compute)
 - DynamoDB (database)
 - S3 (storage)
+
 
 ## 4. How DevOps Engineers Use Lambda
 
@@ -59,7 +61,7 @@ By using Lambda, you get a fully **serverless, automated, and cost-efficient** s
 
 ---
 
-## TASK : Compliance and Security Automation with AWS Lambda
+<h2 align="center"> TASK : Compliance and Security Automation with AWS Lambda </h2>
 
 📌 Scenario
 
@@ -74,7 +76,49 @@ As a Cloud Engineering team, our responsibility is to:
 This project demonstrates how AWS Lambda combined with CloudWatch Events (EventBridge) can be used to detect non-compliant resources and take corrective actions.
 
 > This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
----
 
-<h2 align="center"> Cost Optimization </h1>
+
+
+
+---
+<br><br>
+
+<h1 align="center"> Cost Optimization </h1>
 ()
+
+### 📌 Scenario
+
+In cloud environments, cost often creeps in when engineers forget to clean up unused resources.
+
+For example:
+
+- A company had an EC2 instance with an external EBS volume to store sensitive data and config files.
+- Daily snapshots (backups) of that EBS volume were taken for data protection.
+- Later, the EC2 instance was deleted after data migration.
+- But the attached EBS volume and its snapshots were not deleted.
+
+👉 Result: AWS continues charging for unused storage and snapshot retention, leading to unnecessary costs.
+
+As DevOps/Cloud Engineers, it’s our responsibility to avoid wasteful spending by identifying such unused resources and removing them safely.
+
+### 🎯 Goal
+
+- Automate cost optimization in AWS by cleaning up stale resources.
+- Identify EBS snapshots that are not linked to any active EC2 instance.
+- Delete those snapshots to save storage costs.
+- Ensure the environment remains secure, efficient, and cost-effective.
+
+### 🛠️ Steps
+
+1. Write a Lambda function (Python) that interacts with the AWS EC2 API using boto3.
+
+2. Fetch all EBS snapshots owned by your account (describe_snapshots).
+
+3. Filter stale snapshots – check if the associated volume/instance still exists or is attached.
+
+4. Delete identified snapshots (delete_snapshot) to save storage costs.
+
+5. Schedule Lambda with CloudWatch (EventBridge) to run daily.
+
+
+This project demonstrates how AWS Lambda combined with CloudWatch Events (EventBridge) can be used to identify unused or stale resources (such as EBS snapshots that are no longer attached to any instance) and automatically clean them up to reduce unnecessary AWS costs.
