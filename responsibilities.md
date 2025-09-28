@@ -84,7 +84,6 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 <br><br>
 
 <h1 align="center"> Cost Optimization </h1>
-()
 
 ### 📌 Scenario
 
@@ -101,14 +100,14 @@ For example:
 
 As DevOps/Cloud Engineers, it’s our responsibility to avoid wasteful spending by identifying such unused resources and removing them safely.
 
-### 🎯 Goal
+### Goal
 
 - Automate cost optimization in AWS by cleaning up stale resources.
 - Identify EBS snapshots that are not linked to any active EC2 instance.
 - Delete those snapshots to save storage costs.
 - Ensure the environment remains secure, efficient, and cost-effective.
 
-### 🛠️ Steps
+### Steps
 
 1. Write a Lambda function (Python) that interacts with the AWS EC2 API using boto3.
 
