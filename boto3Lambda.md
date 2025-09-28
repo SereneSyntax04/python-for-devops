@@ -54,4 +54,7 @@ By using Lambda, you get a fully **serverless, automated, and cost-efficient** s
 
 ---
 
-## 5. Best usecase of serverless architecture
+---
+
+<h2 align="center"> AWS Lambda </h1>
+(foundational, cloudwatch + lambda, serverless approach)
