@@ -90,6 +90,18 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 <br><br>
 
 <h1 align="center"> Cost Optimization </h1>
+(foundational, cloudwatch + lambda, cost optimization)
+
+### Q: If there are old EBS snapshots that are no longer linked to any active EC2 instance, what’s the best way to ensure they don’t keep incurring unnecessary storage costs — manual cleanup, EC2 script, or Lambda?
+
+**Answer:**
+The best approach is to use AWS Lambda with an EventBridge (CloudWatch Events) schedule. Lambda can be set to run daily, automatically scanning for stale EBS snapshots and deleting them if they are not associated with any active instances.
+
+This eliminates the need to manage servers (as you would with EC2), avoids human error from manual cleanup, and ensures cost efficiency. With Lambda, you only pay for the execution time, making it a serverless, automated, and cost-effective solution for recurring cleanup tasks.
+
+---
+
+<h2 align="center"> TASK : Cost Optimization </h2>
 
 ### 📌 Scenario
 
@@ -106,12 +118,10 @@ For example:
 
 As DevOps/Cloud Engineers, it’s our responsibility to avoid wasteful spending by identifying such unused resources and removing them safely.
 
-### Goal
+### As a DevOps/Cloud Engineering team, our responsibility is to:
 
-- Automate cost optimization in AWS by cleaning up stale resources.
-- Identify EBS snapshots that are not linked to any active EC2 instance.
-- Delete those snapshots to save storage costs.
-- Ensure the environment remains secure, efficient, and cost-effective.
-
+- Continuously monitor the AWS environment for unused or stale resources.
+- Optimize storage and compute costs by cleaning up what’s no longer needed.
+- Automate responses to reduce manual effort and prevent human oversight.
 
 This project demonstrates how AWS Lambda combined with CloudWatch Events (EventBridge) can be used to identify unused or stale resources (such as EBS snapshots that are no longer attached to any instance) and automatically clean them up to reduce unnecessary AWS costs.
