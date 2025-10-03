@@ -78,6 +78,19 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 > This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
 
 
+<h3 align="center"> STEPS: </h3>
+
+## Verify Installation
+
+```bash
+pip list | grep boto3
+```
+
+
+
+
+
+
 
 
 ---
