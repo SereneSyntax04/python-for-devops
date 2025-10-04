@@ -56,6 +56,13 @@ DevOps engineers use AWS Lambda extensively to automate and simplify cloud opera
 
 
 
+
+
+
+
+
+
+
 <br><br>
 
 <h1 align="center"> Compliance and Security Automation with AWS Lambda </h1>
@@ -86,93 +93,15 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 
 > This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
 
-
-<h3 align="center"> Steps to perform the task </h3>
-
-## Step 1: Sign in to AWS Management Console
-- Navigate to AWS Lambda service.
-
-
-## Step 2: Create and Set Up a New Lambda Function  
-
-### 1. Create Function  
-- Click **Create function**.  
-- Choose **Author from scratch**.  
-- Provide:  
-  - **Function name**  
-  - **Runtime** (e.g., Python 3.9)  
-  - **Execution role** (select an existing role with proper permissions or create a new one).  
-- Click **Create function**.  
-
-### 2. Deploy the Code  
-- In the **function editor**, you’ll see the default sample code AWS Lambda provides (usually a simple “Hello from Lambda” function).  
-- For now, don’t change anything — we’ll just test this default code to confirm Lambda is working properly.  
-- Click **Deploy** to save the function.  
-
-### 3. Test the Function  
-- Click **Test**.  
-- Configure a test event (use a sample template or create your own JSON).  
-- Run the test and verify the output.  
-
-
-## Step 3: Configure CloudWatch Rule to Trigger Lambda  
-
-1. **Create Rule**  
-   - Go to **Amazon CloudWatch → Rules**.  
-   - Click **Create rule**.  
-
-2. **Define Event Source**  
-   - Select **Event pattern** as the event source.  
-   - Event type: **EBS volume notification**  
-   - Specific event: **CreateVolume**  
-
-3. **Set Target**  
-   - Target: **Lambda function**  
-   - Choose your Lambda function from the list.  
-
-4. **Configure and Create Rule**  
-   - Provide a **name** and optional **description** for the rule.  
-   - Review the settings and click **Create rule**.  
-
-
-## Step 4: Dummy Run (Verify CloudWatch → Lambda Integration)  
-
-Before writing the actual code, we need to confirm that the CloudWatch event can successfully trigger the Lambda function.  
-
-1. **Trigger an Event**  
-   - Go to **EC2 → Volumes**.  
-   - Create a **new EBS volume**.  
-
-2. **Wait for Event Delivery**  
-   - Wait for about a minute to allow the event to propagate.  
-
-3. **Check Lambda Logs**  
-   - Open your Lambda function in the AWS Console.  
-   - Navigate to **Monitor → Logs in CloudWatch**.  
-   - Check the **Log Stream** for a new entry/report.  
-
-⚠️ Since our Lambda function currently doesn’t have any action defined, you should just see a **basic execution report** confirming the trigger worked.  
-
-
-step 5: actual lambda code to check the type of volume and change it to gp3
-
-def lambda_handler(event,content): 
-in the above line lambda_handler is the default function that is triggered , event in bracket has allt he detail that cloudwatch is sending to lambda 
-
-if you wanna understand that then use 'print(event) -> deploy and create new volume then check in log group -> the report you got copy and paste in online json formatter and you'll get a dictionary format of all the details cloudwatch is sending to lambda function
-
-from that we only want :
-resources: [
-   'arn:aws.........'IdOfVolume'
-]
-
-we need this id of volume to change the tyoe from gp2 to gp3 .
-
-
+⚙️ [Step-by-Step Guide: Complete AWS Lambda Compliance Project]()
 
 
 
 ---
+
+
+
+
 
 
 
@@ -203,7 +132,7 @@ For example:
 - Later, the EC2 instance was deleted after data migration.
 - But the attached EBS volume and its snapshots were not deleted.
 
-👉 Result: AWS continues charging for unused storage and snapshot retention, leading to unnecessary costs.
+Result: AWS continues charging for unused storage and snapshot retention, leading to unnecessary costs.
 
 As DevOps/Cloud Engineers, it’s our responsibility to avoid wasteful spending by identifying such unused resources and removing them safely.
 
@@ -214,3 +143,5 @@ As DevOps/Cloud Engineers, it’s our responsibility to avoid wasteful spending 
 - Automate responses to reduce manual effort and prevent human oversight.
 
 This project demonstrates how AWS Lambda combined with CloudWatch Events (EventBridge) can be used to identify unused or stale resources (such as EBS snapshots that are no longer attached to any instance) and automatically clean them up to reduce unnecessary AWS costs.
+
+⚙️ [Step-by-Step Implementation: Automating EBS Snapshot Cleanup with Lambda]()
