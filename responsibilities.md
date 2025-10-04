@@ -87,20 +87,7 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 > This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
 
 
-<h3 align="center"> Steps to perform the task : </h3>
-
-## Verify Installation of boto3 in codespace
-
-```bash
-pip list | grep boto3
-```
-
-## If boto3 is not listed, install it:
-
-```bash
-pip install boto3
-```
-<br>
+<h3 align="center"> Steps to perform the task </h3>
 
 ## Step 1: Sign in to AWS Management Console
 - Navigate to AWS Lambda service.
@@ -172,7 +159,19 @@ step 5: actual lambda code to check the type of volume and change it to gp3
 def lambda_handler(event,content): 
 in the above line lambda_handler is the default function that is triggered , event in bracket has allt he detail that cloudwatch is sending to lambda 
 
-if you wanna understand that then use 'print(event) -> deploy and create new volume then check in log group -> the repor tyou got copy and paste in online json formatter'
+if you wanna understand that then use 'print(event) -> deploy and create new volume then check in log group -> the report you got copy and paste in online json formatter and you'll get a dictionary format of all the details cloudwatch is sending to lambda function
+
+from that we only want :
+resources: [
+   'arn:aws.........'IdOfVolume'
+]
+
+we need this id of volume to change the tyoe from gp2 to gp3 .
+
+
+
+
+
 ---
 
 
