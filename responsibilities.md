@@ -93,7 +93,7 @@ This project demonstrates how AWS Lambda combined with CloudWatch Events (EventB
 
 > This approach can be extended to EBS, RDS, EC2, S3, EKS, and other AWS services.
 
-⚙️ [Step-by-Step Guide: Complete AWS Lambda Compliance Project]()
+⚙️ [Step-by-Step Guide: Complete AWS Lambda Compliance Project](https://github.com/SereneSyntax04/python-for-devops/blob/main/Compliance%20and_Security_Automation.md)
 
 
 
