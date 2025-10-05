@@ -1,3 +1,17 @@
+
+<h1 align="center"> 🔑 Core Responsibilities of a DevOps Engineer </h1> <br> 
+ Every DevOps engineer generally deals with two major tasks: <br>
+ 
+### 1. Compliance & Security Automation – Ensuring the AWS environment follows organizational policies and remains secure.
+### 2. Cost Optimization – Making sure cloud resources are used efficiently and costs are minimized.
+
+---
+
+
+
+
+
+
 <h1 align="center"> AWS Lambda </h1>
 
 ## 1. What is AWS Lambda?
@@ -46,23 +60,13 @@ DevOps engineers use AWS Lambda extensively to automate and simplify cloud opera
 
 ---
 
-<h1 align="center"> 🔑 Core Responsibilities of a DevOps Engineer </h1> <br> 
- Every DevOps engineer generally deals with two major tasks: <br>
- 
-### 1. Compliance & Security Automation – Ensuring the AWS environment follows organizational policies and remains secure.
-### 2. Cost Optimization – Making sure cloud resources are used efficiently and costs are minimized.
-
----
 
 
 
 
 
 
-
-
-
-
+<br><br>
 <br><br>
 
 <h1 align="center"> Compliance and Security Automation with AWS Lambda </h1>
