@@ -38,6 +38,36 @@
 ---
 
 
-> If you created the .md file directly on GitHub, after opening the Codespace, your Codespace won’t auto-sync. <br>
-> In the Codespace terminal, run: git pull origin main (this will sync the changes done and will be reflected in codespace) <br>
-> git pull --no-rebase this command is for when working with codespace and want to merge new created branch to main 
+<h1 align="center">🔧 Syncing GitHub Codespace with Remote Repository</h1>
+
+If you’ve created or edited a `.md` file directly on **GitHub**, your **Codespace** won’t automatically update to reflect those changes.  
+Follow these steps to manually sync your Codespace:
+
+---
+
+## 🪜 Step-by-Step Guide
+
+### **Step 1: Open the Codespace Terminal**
+- In your Codespace, press **`Ctrl + `** (backtick) to open the integrated terminal.
+
+
+### **Step 2: Pull the Latest Changes**
+Run the following command to fetch and merge updates from your remote repository:
+
+```bash
+git pull origin main
+```
+This command ensures that any changes (like a newly created .md file) made directly on GitHub are synced to your Codespace.
+
+
+### **Step 3: Merging a New Branch (Optional)**
+If you are working with a newly created branch and want to merge its updates into the main branch, use:
+
+```bash
+git pull --no-rebase
+```
+This merges changes without rebasing, keeping your commit history clean when syncing between branches in Codespaces.
+
+
+### **✅ Result**
+After running these commands, your Codespace will be up-to-date with all the latest changes made on GitHub.

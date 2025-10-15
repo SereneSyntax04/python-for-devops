@@ -13,7 +13,7 @@
 - Provide:  
   - **Function name**  
   - **Runtime** (e.g., Python 3.9)  
-  - **Execution role** (select an existing role with proper permissions or create a new one).  
+  - **Execution role** (select an existing  role with proper permissions or create a new one).  
 - Click **Create function**.  
 
 ### 2. Deploy the Code  
