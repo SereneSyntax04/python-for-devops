@@ -69,5 +69,18 @@ git pull --no-rebase
 This merges changes without rebasing, keeping your commit history clean when syncing between branches in Codespaces.
 
 
-### **✅ Result**
-After running these commands, your Codespace will be up-to-date with all the latest changes made on GitHub.
+### **Step 4: Verify AWS Connection (Optional)**
+
+If your Codespace is linked to AWS CLI or boto3, confirm that your credentials and default profile are active:
+
+```bash
+aws sts get-caller-identity
+```
+
+If it returns your Account ID and User ARN, your AWS connection is working.
+If you see an error like InvalidClientTokenId, you’ll need to reconfigure your credentials using:
+
+```bash
+aws configure
+```
+
